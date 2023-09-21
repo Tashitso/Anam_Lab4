@@ -1,4 +1,5 @@
-# Anamza_Lab4
+Anamza_Lab4
+=========== 
 
 ## Synopsis 
 Description of what the project is ....
@@ -19,7 +20,7 @@ Count the number of lines in a file.
 
       wc l filename
 
-Find a certian pattern in the file and count the number of its occurence.
+Find a certian ==pattern== in the file and count the number of its occurence.
 
      grep 'pattern' filename | wc -l
 
