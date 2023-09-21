@@ -7,6 +7,10 @@ Description of what the project is ....
 
 ```Shell
 #! /bin/sh
+for i in numbers of files
+do
+	echo "$i"
+done 	
 
 ```	
 	
@@ -14,7 +18,8 @@ Count the number of lines in a file.
 
       wc l filename
 
-Find a certian pattern in the file and count the number of its occurence. 
+Find a certian pattern in the file and count the number of its occurence.
+
      grep 'pattern' filename | wc -l
 
 
