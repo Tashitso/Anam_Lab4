@@ -9,7 +9,7 @@ Description of what the project is ....
 #! /bin/sh
 for i in numbers of files
 do
-	wc -l "$i"
+	wc -l $i
 	grep 'pattern' $i | wc -l 
 done 	
 
