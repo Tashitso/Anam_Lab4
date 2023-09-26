@@ -18,7 +18,7 @@ done
 	
 Count the number of lines in a file.
 
-      wc l filename
+      wc -l filename
 
 Find a certian pattern in the file and count the number of its occurence.
 
