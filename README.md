@@ -17,7 +17,7 @@ do
     echo "~~~~~~~~~:"
   
 # redirect the header into a file 
-    #awk 'NR == 1' $i > ${i%%.*}_header.txt
+    awk 'NR == 1' $i > ${i%%.*}_header.txt
 
 # count and print after removing the headers
     echo "Counts after removing the headers: " 
