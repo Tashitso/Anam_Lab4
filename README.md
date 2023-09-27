@@ -51,10 +51,10 @@ done
 
 ### Report the results
 
-|filename|line counts|pattern counts| 
+|filename|Duplicate|Percentage of duplicates removed| 
 |:-------|:-------:|---------:|
-|file1.csv|200|20|
-|file2.csv|450|142|
+|CAST|0|0%|
+|DOM|91|1%|
 
 
 ## Motivation
