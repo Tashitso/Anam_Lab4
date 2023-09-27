@@ -53,18 +53,9 @@ do
     
      
 done
-```	
-	
-Count the number of lines in a file.
+```
 
-      wc -l filename
-
-Find a certian pattern in the file and count the number of its occurence.
-
-     grep 'pattern' filename | wc -l
-
-
-### Create a table to report the results
+### Report the results
 
 |filename|line counts|pattern counts| 
 |:-------|:-------:|---------:|
