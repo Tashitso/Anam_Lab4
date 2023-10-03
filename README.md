@@ -61,7 +61,7 @@ done
 
 ### Report the results
 
-|filename|Duplicate|Percentage of duplicates removed| 
+|filename|Duplicates|Percentage of duplicates removed| 
 |:-------|:-------:|---------:|
 |CAST|0|0%|
 |DOM|91|1%|
