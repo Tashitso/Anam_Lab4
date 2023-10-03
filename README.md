@@ -31,7 +31,7 @@ do
     wc -l ${species}_lat_long_uniq.txt
     grep 'USNM' ${species}_lat_long_uniq.txt | wc -l
     grep 'USNM' ${species}_lat_long_uniq.txt > ${species}_USNM.txt
-    #cp ${species}_USNM.txt ..
+    cp ${species}_USNM.txt ..
     cd ../..
     cat ${species}_USNM.txt >> Lat_long_USNM_combined.txt
 
