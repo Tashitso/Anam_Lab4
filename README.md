@@ -7,7 +7,7 @@ Description of what the project is ....
 ## Code examples 
 
 ```Shell
-#! /bin/sh 
+
 # the length of the arguments 
 len=$*
 
