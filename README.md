@@ -48,9 +48,10 @@ do
 
     # copy the the final file to parent directory 
     cp ${species}_lat_long_cleaned.txt ..
+   # change directory to parent directory 
     cd ..
 
-    # combined the the final 2 files into one 
+    # combined the final 2 files into one 
     cat ${species}_lat_long_cleaned.txt >> Lat_long_USNM_combined.txt
     
     pwd
