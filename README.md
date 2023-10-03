@@ -12,7 +12,6 @@ for species in 'CAST' 'DOM'
 do
     wc -l $species
     mkdir -p Anamza/DOM Anamza/CAST
-    for species in 'CAST' #'DOM'
 
     if [ $species == "DOM" ]; then
         file=`grep -il "domesticus" *.csv`
