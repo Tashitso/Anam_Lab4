@@ -52,7 +52,7 @@ do
     cd ..
 
     # combined the final 2 files into one 
-    cat ${species}_lat_long_cleaned.txt >> Lat_long_USNM_combined.txt
+    cat *.txt >> Lat_long_USNM_combined.txt
     
     pwd
  
