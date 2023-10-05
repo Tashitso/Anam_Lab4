@@ -62,7 +62,7 @@ done
 
 ### Report the results
 
-|filename|Duplicates|Percentage of duplicates removed| 
+|Species|Number of Duplicates|Percentage of duplicates removed| 
 |:-------|:-------:|---------:|
 |CAST|0|0%|
 |DOM|91|1%|
