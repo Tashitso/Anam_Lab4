@@ -2,7 +2,7 @@ Anamza_Lab4
 =========== 
 
 ## Synopsis 
-Description of what the project is ....
+This Shell script cleans data from GBIF. It sorts the data based on latitude first and then sort it based on longitude. It removes the duplicate and missing values, it also removes spaces and blank lines. Then it extracts the records are from a specific museum. The final file only contains the coordinates. This script allows to loop through a given number of sepcies to perform thoese steps. 
 
 ## Code examples 
 
