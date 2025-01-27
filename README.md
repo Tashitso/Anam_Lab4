@@ -1,4 +1,4 @@
-Anamza_Lab4
+Anam_Lab4
 =========== 
 
 ## Synopsis 
