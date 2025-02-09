@@ -14,7 +14,7 @@ do
    echo "$species"
    wc -l $species
    # make directory for each species 
-    mkdir -p Anamza/DOM Anamza/CAST
+    mkdir -p Anam/DOM Anam/CAST
     
     # check each species correspods to its file 
     if [ $species == "DOM" ]; then
@@ -24,7 +24,7 @@ do
        file=`grep -il "castaneus" *.csv`
        echo "The file for $species is $file"
     fi
-    cd Anamza/DOM/
+    cd Anam/DOM/
     pwd
 
    # get the header and save it  
